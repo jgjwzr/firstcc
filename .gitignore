@@ -1,0 +1,15 @@
+# Claude Code
+.claude/
+
+# Built output
+dist/
+output.pptx
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# System
+.DS_Store
+Thumbs.db

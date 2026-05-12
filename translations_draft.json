@@ -1,0 +1,419 @@
+{
+  "slides": [
+    {
+      "id": 1,
+      "type": "title",
+      "title_en": "An Atomic-to-Macroscale Assembled Ni/MoO2 Electrode for High-Efficiency and Long-Life Hydrogen Production",
+      "title_cn_curated": "原子-宏观多尺度组装Ni/MoO₂电极用于高效长寿命制氢",
+      "subtitle_en": "Shang Jiang, Wei Hu, Shizheng Zhou, Linfeng Yu, Liang Luo, Yunlong Zhang, Qiao Zhao, Zhibin Yu, Wei Liu, Xiaoming Sun, Liang Yu*, Yanting Liu*, Dehui Deng*\nDalian Institute of Chemical Physics, CAS\nJ. Am. Chem. Soc. 2025",
+      "subtitle_cn_curated": "蒋尚‡, 胡伟‡, 周世正, 于林峰, 罗亮, 张云龙, 赵翘, 于志彬, 刘伟, 孙晓明, 余亮*, 刘艳廷*, 邓德会*\n中国科学院大连化学物理研究所\nJ. Am. Chem. Soc. 2025",
+      "note_cn": "",
+      "subtitle_cn": "蒋尚‡, 胡伟‡, 周世正, 于林峰, 罗亮, 张云龙, 赵翘, 于志彬, 刘伟, 孙晓明, 余亮*, 刘艳廷*, 邓德会*\n中国科学院大连化学物理研究所\nJ. Am. Chem. Soc. 2025"
+    },
+    {
+      "id": 2,
+      "type": "content",
+      "title_cn_curated": "研究背景与挑战",
+      "bullets_en": [
+        "Green hydrogen production via water electrolysis powered by renewable electricity is critical for establishing a green hydrogen economy.",
+        "Alkaline water electrolysis (ALKWE) uses nonprecious metal catalysts and mature infrastructure but costs 3-4× more than steam methane reforming.",
+        "Current ALKWE: high energy consumption (4.5-5.0 kWh/Nm³ H₂) and limited current density (200-400 mA/cm²).",
+        "Key challenge: activity-stability-mass transport trade-off becomes severe at ampere-level current densities due to vigorous bubble evolution blocking active sites."
+      ],
+      "bullets_cn_curated": [
+        "利用可再生能源驱动的电化学水分解制氢是建立绿氢经济的关键过程。",
+        "碱性水电解（ALKWE）可使用非贵金属催化剂和成熟工业基础设施，但成本比蒸汽甲烷重整高3-4倍。",
+        "当前ALKWE面临高能耗（4.5-5.0 kWh/Nm³ H₂）和有限电流密度（200-400 mA/cm²）的挑战。",
+        "核心难题：在高电流密度下，剧烈的气泡演化会阻塞活性位点、阻碍电解质进入并破坏催化层，使活性-稳定性-传质之间的矛盾尤为突出。"
+      ],
+      "bullets_cn": [
+        "利用可再生能源驱动的电化学水分解制氢是建立绿氢经济的关键过程。",
+        "碱性水电解（ALKWE）可使用非贵金属催化剂和成熟工业基础设施，但成本比蒸汽甲烷重整高3-4倍。",
+        "当前ALKWE面临高能耗（4.5-5.0 kWh/Nm³ H₂）和有限电流密度（200-400 mA/cm²）的挑战。",
+        "核心难题：在高电流密度下，剧烈的气泡演化会阻塞活性位点、阻碍电解质进入并破坏催化层，使活性-稳定性-传质之间的矛盾尤为突出。"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "content",
+      "title_cn_curated": "本文亮点：原子到宏观多尺度电极设计",
+      "bullets_en": [
+        "Atomic-to-macroscale assembly of integrated Ni/MoO₂ electrode with triscale (nano-micro-macro) porosity.",
+        "Ultralow overpotential of 145 mV at 1 A/cm² (vs 300 mV for Pt/C) in 1 M KOH.",
+        "Stable operation for >3500 h with degradation rate of 0.023 mV/h.",
+        "Practical ALKWE: cell voltage 1.80 V at 1 A/cm², energy consumption 4.3 kWh/Nm³ H₂, meeting DOE 2026 target.",
+        "Triple-enhancement effect: (i) electron transfer boosts intrinsic activity, (ii) hierarchical porosity enhances mass transfer, (iii) strong electronic interaction strengthens stability."
+      ],
+      "bullets_cn_curated": [
+        "原子到宏观多尺度组装：构建具有三尺度（纳-微-宏）孔结构的Ni/MoO₂一体化电极。",
+        "超高活性：1 M KOH中，1 A/cm²下过电位仅145 mV（Pt/C为300 mV），降低52%。",
+        "优异稳定性：在1 A/cm²下稳定运行超过3500小时，衰减速率仅0.023 mV/h。",
+        "实际应用：工业条件下（30 wt% KOH, ≥85°C）槽电压1.80 V@1 A/cm²，能耗4.3 kWh/Nm³ H₂，达到美国DOE 2026年目标。",
+        "三增强效应：(i) 界面电荷转移提升本征活性，(ii) 多级孔结构增强质量传输，(iii) 强电子相互作用增强结构稳定性。"
+      ],
+      "bullets_cn": [
+        "原子到宏观多尺度组装：构建具有三尺度（纳-微-宏）孔结构的Ni/MoO₂一体化电极。",
+        "超高活性：1 M KOH中，1 A/cm²下过电位仅145 mV（Pt/C为300 mV），降低52%。",
+        "优异稳定性：在1 A/cm²下稳定运行超过3500小时，衰减速率仅0.023 mV/h。",
+        "实际应用：工业条件下（30 wt% KOH, ≥85°C）槽电压1.80 V@1 A/cm²，能耗4.3 kWh/Nm³ H₂，达到美国DOE 2026年目标。",
+        "三增强效应：(i) 界面电荷转移提升本征活性，(ii) 多级孔结构增强质量传输，(iii) 强电子相互作用增强结构稳定性。"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电极制备流程与结构表征（一）：合成示意图",
+      "text_en": "The Ni/MoO₂ electrode is fabricated through powder metallurgy followed by impregnation-calcination: (1) Ni + NaCl powders sintered at 750°C in Ar, (2) NaCl template removed by water washing to create macropores (~400 μm), (3) impregnation in ammonium molybdate solution forming POM, (4) calcination at 600°C forming uniform Ni/MoO₂ heterostructure. The electrode retains triscale porosity with mass loading of 6.3 mg/cm².",
+      "text_cn_curated": "Ni/MoO₂电极通过粉末冶金+浸渍-煅烧法制备：(1) Ni粉与NaCl模板混合压制成型，750°C Ar气氛烧结；(2) 水洗去除NaCl模板，形成~400 μm大孔；(3) 钼酸铵溶液中浸渍，表面Ni与溶液反应生成POM；(4) 600°C煅烧，形成均匀的Ni/MoO₂异质结构。电极保持三尺度孔结构，活性层载量6.3 mg/cm²。",
+      "figures": [
+        "Figure1_page2",
+        "Figure_S1"
+      ],
+      "text_cn": "Ni/MoO₂电极通过粉末冶金+浸渍-煅烧法制备：(1) Ni粉与NaCl模板混合压制成型，750°C Ar气氛烧结；(2) 水洗去除NaCl模板，形成~400 μm大孔；(3) 钼酸铵溶液中浸渍，表面Ni与溶液反应生成POM；(4) 600°C煅烧，形成均匀的Ni/MoO₂异质结构。电极保持三尺度孔结构，活性层载量6.3 mg/cm²。"
+    },
+    {
+      "id": 5,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电极制备与结构表征（二）：微观形貌",
+      "text_en": "Top-view SEM shows dual-scale porosity retained with enhanced surface roughness. Cross-sectional SEM reveals ~500 nm-thick Ni/MoO₂ layer uniformly coating the porous Ni skeleton. HAADF-STEM shows nanopores forming within the layer on micropore ligaments, with Ni nanoparticles anchored on nano-MoO₂.",
+      "text_cn_curated": "顶视SEM显示双尺度孔结构保持完整，表面粗糙度增加。截面SEM显示约500 nm厚的Ni/MoO₂层均匀包裹多孔Ni骨架。HAADF-STEM显示纳米孔在微孔韧带上的生长层内形成，Ni纳米颗粒锚定在纳米MoO₂上。比表面积达2.91 m²/g，是商用Ni泡沫的100倍。",
+      "figures": [
+        "Figure1_page2",
+        "Figure_S5"
+      ],
+      "text_cn": "顶视SEM显示双尺度孔结构保持完整，表面粗糙度增加。截面SEM显示约500 nm厚的Ni/MoO₂层均匀包裹多孔Ni骨架。HAADF-STEM显示纳米孔在微孔韧带上的生长层内形成，Ni纳米颗粒锚定在纳米MoO₂上。比表面积达2.91 m²/g，是商用Ni泡沫的100倍。"
+    },
+    {
+      "id": 6,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电极制备与结构表征（三）：截面结构与元素分布",
+      "text_en": "FIB-prepared cross-section shows uniform Mo and Ni dispersion throughout the ~500 nm layer. HAADF-STEM and EDS mapping confirm abundant Ni nanoparticles anchored to nano-MoO₂ matrix. The hierarchical porous architecture is preserved after Ni/MoO₂ growth.",
+      "text_cn_curated": "FIB制备的截面样品显示Mo和Ni元素在~500 nm层内均匀分布。HAADF-STEM和EDS元素面扫证实大量Ni纳米颗粒均匀锚定在纳米MoO₂基底上。Ni/MoO₂生长后保持了基体的多级孔结构。",
+      "figures": [
+        "Figure1_page3",
+        "Figure_S6",
+        "Figure_S8"
+      ],
+      "text_cn": "FIB制备的截面样品显示Mo和Ni元素在~500 nm层内均匀分布。HAADF-STEM和EDS元素面扫证实大量Ni纳米颗粒均匀锚定在纳米MoO₂基底上。Ni/MoO₂生长后保持了基体的多级孔结构。"
+    },
+    {
+      "id": 7,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电极制备与结构表征（四）：原子尺度异质界面",
+      "text_en": "HRTEM reveals d-spacings of 0.20 nm (Ni(111)) and 0.24 nm (MoO₂(200)), confirming the formation of Ni/MoO₂ heterostructure. EDS mapping shows clear spatial relationship between Ni nanoparticles and MoO₂ substrate. XRD and Raman confirm crystalline MoO₂ and metallic Ni phases.",
+      "text_cn_curated": "HRTEM显示晶面间距0.20 nm（Ni(111)）和0.24 nm（MoO₂(200)），证实Ni/MoO₂异质结构的形成。EDS元素面扫显示Ni纳米颗粒与MoO₂基底的空间对应关系。XRD和拉曼光谱确认电极由晶态MoO₂和金属Ni相组成。",
+      "figures": [
+        "Figure1_page3",
+        "Figure_S9",
+        "Figure_S10",
+        "Figure_S11"
+      ],
+      "text_cn": "HRTEM显示晶面间距0.20 nm（Ni(111)）和0.24 nm（MoO₂(200)），证实Ni/MoO₂异质结构的形成。EDS元素面扫显示Ni纳米颗粒与MoO₂基底的空间对应关系。XRD和拉曼光谱确认电极由晶态MoO₂和金属Ni相组成。"
+    },
+    {
+      "id": 8,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电极制备与结构表征（五）：三尺度孔结构",
+      "text_en": "MIP results show that Ni/MoO₂ growth leads to slight reduction in submillimeter- and micrometer-scale pores while introducing nanoporosity. The electrode possesses triscale (macro-micro-nano) porous architecture. Macro pores (~400 μm) from NaCl templates, micro pores from Ni powder sintering, and nano pores from the Ni/MoO₂ layer.",
+      "text_cn_curated": "压汞法（MIP）结果显示Ni/MoO₂生长后亚毫米和微米孔略有减少，同时引入纳米孔。电极具有纳-微-宏三尺度孔结构：大孔（~400 μm）来自NaCl模板，微孔来自Ni粉烧结，纳米孔来自Ni/MoO₂层生长。这种多级孔结构协同增强电催化性能。",
+      "figures": [
+        "Figure1_page3_full",
+        "Figure_S7"
+      ],
+      "text_cn": "压汞法（MIP）结果显示Ni/MoO₂生长后亚毫米和微米孔略有减少，同时引入纳米孔。电极具有纳-微-宏三尺度孔结构：大孔（~400 μm）来自NaCl模板，微孔来自Ni粉烧结，纳米孔来自Ni/MoO₂层生长。这种多级孔结构协同增强电催化性能。"
+    },
+    {
+      "id": 9,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "HER电化学性能（一）：极化曲线与活性对比",
+      "text_en": "Ni/MoO₂ electrode exhibits overpotential of 19 mV at 10 mA/cm² (close to Pt/C at 14 mV). At 1 A/cm², the overpotential is only 145 mV, representing a 52% reduction compared to Pt/C (300 mV). Porous Ni requires 202 mV at 10 mA/cm². Tafel slope: 36 mV/dec for Ni/MoO₂ vs 87 mV/dec for porous Ni, indicating faster HER kinetics.",
+      "text_cn_curated": "Ni/MoO₂电极在10 mA/cm²下过电位仅19 mV（接近Pt/C的14 mV），远优于多孔Ni（202 mV）。在1 A/cm²安培级电流密度下，过电位仅145 mV，比Pt/C（300 mV）降低52%。Tafel斜率：Ni/MoO₂为36 mV/dec，多孔Ni为87 mV/dec，表明更快的HER动力学。",
+      "figures": [
+        "Figure2_page3",
+        "Figure_S12",
+        "Figure_S13"
+      ],
+      "text_cn": "Ni/MoO₂电极在10 mA/cm²下过电位仅19 mV（接近Pt/C的14 mV），远优于多孔Ni（202 mV）。在1 A/cm²安培级电流密度下，过电位仅145 mV，比Pt/C（300 mV）降低52%。Tafel斜率：Ni/MoO₂为36 mV/dec，多孔Ni为87 mV/dec，表明更快的HER动力学。"
+    },
+    {
+      "id": 10,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "HER电化学性能（二）：阻抗与电化学活性面积",
+      "text_en": "EIS at -0.065 V vs RHE shows Ni/MoO₂ has much smaller charge transfer resistance (Rct = 0.426 Ω·cm²) compared to porous Ni (26.47 Ω·cm²). ECSA of Ni/MoO₂ is 211.25, which is 4.2× that of porous Ni (50.00), indicating more accessible active sites.",
+      "text_cn_curated": "EIS测试显示Ni/MoO₂的电荷转移阻抗Rct仅0.426 Ω·cm²，远低于多孔Ni（26.47 Ω·cm²），表明更快的电荷转移动力学。电化学活性面积ECSA为211.25，是多孔Ni（50.00）的4.2倍，说明活性位点密度显著增加。",
+      "figures": [
+        "Figure2_page4_full"
+      ],
+      "text_cn": "EIS测试显示Ni/MoO₂的电荷转移阻抗Rct仅0.426 Ω·cm²，远低于多孔Ni（26.47 Ω·cm²），表明更快的电荷转移动力学。电化学活性面积ECSA为211.25，是多孔Ni（50.00）的4.2倍，说明活性位点密度显著增加。"
+    },
+    {
+      "id": 11,
+      "type": "content",
+      "title_cn_curated": "HER电化学性能（三）：双电层电容与活性面积",
+      "bullets_en": [],
+      "bullets_cn_curated": [
+        "通过CV在非法拉第电位窗口测定双电层电容（Cdl）。",
+        "Ni/MoO₂的Cdl为8.45 mF/cm²，是多孔Ni（2.00 mF/cm²）的4.2倍。",
+        "ECSA = Cdl/Cs = 211.25（Cs = 0.04 mF/cm²），多孔Ni ECSA = 50.00。",
+        "更高的ECSA表明Ni/MoO₂电极提供了更多的可及活性位点。"
+      ],
+      "figures": [
+        "Figure_S14"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "HER电化学性能（四）：氢气产率与法拉第效率",
+      "text_en": "The Ni/MoO₂ electrode shows H₂ productivity linearly increasing with applied current density, reaching near 100% Faradaic efficiency. The improved ECSA contributes to enhanced catalytic activity, enabling high current densities with nearly complete conversion efficiency.",
+      "text_cn_curated": "Ni/MoO₂电极的氢气产率随外加电流密度线性增加，法拉第效率接近100%。提升的ECSA赋予多孔Ni更高的催化活性，使其能够实现高电流密度下近乎完全转化的产氢效率。",
+      "figures": [
+        "Figure2_page4"
+      ],
+      "text_cn": "Ni/MoO₂电极的氢气产率随外加电流密度线性增加，法拉第效率接近100%。提升的ECSA赋予多孔Ni更高的催化活性，使其能够实现高电流密度下近乎完全转化的产氢效率。"
+    },
+    {
+      "id": 13,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "HER电化学性能（五）：长期稳定性测试",
+      "text_en": "Ni/MoO₂ electrode maintains stable cathode potential at 1 A/cm² for over 3500 h with a low degradation rate of 0.023 mV/h. XRD, SEM show no obvious structural changes after the test. ICP confirms negligible Mo leaching (2.74 at% → 2.65 at%). Performance is competitive among nonprecious metal HER catalysts.",
+      "text_cn_curated": "Ni/MoO₂电极在1 A/cm²下稳定运行超过3500小时，电位衰减速率仅0.023 mV/h。耐久性测试后XRD和SEM显示晶体结构和形貌无明显变化。ICP证实Mo含量几乎无损失（2.74 at% → 2.65 at%）。该性能在非贵金属碱性HER催化剂中具有极强的竞争力。",
+      "figures": [
+        "Figure2_page4_full",
+        "Figure_S15",
+        "Figure_S16"
+      ],
+      "text_cn": "Ni/MoO₂电极在1 A/cm²下稳定运行超过3500小时，电位衰减速率仅0.023 mV/h。耐久性测试后XRD和SEM显示晶体结构和形貌无明显变化。ICP证实Mo含量几乎无损失（2.74 at% → 2.65 at%）。该性能在非贵金属碱性HER催化剂中具有极强的竞争力。"
+    },
+    {
+      "id": 14,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "HER电化学性能（六）：实际ALKWE全电解测试",
+      "text_en": "Ni/MoO₂ as cathode in practical ALKWE: cell voltage 1.69 V at 500 mA/cm² (4.0 kWh/Nm³ H₂). At 1 A/cm² and 95°C: cell voltage 1.80 V, energy consumption 4.3 kWh/Nm³ H₂ — meeting DOE 2026 target. Stable operation for >1000 h at 1 A/cm² with voltage degradation of 0.16 mV/h.",
+      "text_cn_curated": "以Ni/MoO₂为阴极、Raney Ni为阳极构建ALKWE电解槽。工业条件下（30 wt% KOH, 85-95°C）：500 mA/cm²槽电压1.69 V，能耗4.0 kWh/Nm³ H₂；1 A/cm²下槽电压1.80 V，能耗4.3 kWh/Nm³ H₂，达到美国DOE 2026年目标。在1 A/cm²下稳定运行超1000 h，电压衰减0.16 mV/h。",
+      "figures": [
+        "Figure2_page4_full",
+        "Figure_S17"
+      ],
+      "text_cn": "以Ni/MoO₂为阴极、Raney Ni为阳极构建ALKWE电解槽。工业条件下（30 wt% KOH, 85-95°C）：500 mA/cm²槽电压1.69 V，能耗4.0 kWh/Nm³ H₂；1 A/cm²下槽电压1.80 V，能耗4.3 kWh/Nm³ H₂，达到美国DOE 2026年目标。在1 A/cm²下稳定运行超1000 h，电压衰减0.16 mV/h。"
+    },
+    {
+      "id": 15,
+      "type": "content",
+      "title_cn_curated": "性能对比：文献对标",
+      "bullets_cn_curated": [
+        "Table S6：与文献中非贵金属碱性HER催化剂对比，Ni/MoO₂在安培级电流密度（1 A/cm²）下的过电位（145 mV）和稳定性（3700 h, 0.023 mV/h）均处于领先水平。",
+        "Table S8：与文献ALKWE电解槽性能对比，Ni/MoO₂||Raney Ni体系在1 A/cm²下1.80 V的槽电压是目前最优值之一，稳定性（1100 h）也远超同类体系（通常100 h）。",
+        "综合性能达到甚至超过了DOE 2026年目标，展示了其工业应用潜力。"
+      ],
+      "figures": [
+        "Table_S6",
+        "Table_S8"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "质量传输能力（一）：气泡演化原位观测",
+      "text_en": "In situ high-speed video imaging monitors H₂ bubble evolution at high current densities. At 500 mA/cm², Ni/MoO₂ produces bubbles with median diameter of 19 μm (IQR: 14-30 μm), markedly smaller than porous Ni (median: 29 μm, IQR: 20-43 μm). Smaller bubbles indicate enhanced detachment efficiency, reducing active site blockage.",
+      "text_cn_curated": "原位高速摄像动态监测高电流密度下H₂气泡演化行为。500 mA/cm²下，Ni/MoO₂电极产生的气泡中位直径仅19 μm（IQR: 14-30 μm），显著小于多孔Ni（中位直径29 μm, IQR: 20-43 μm）。气泡尺寸的显著减小表明气泡脱附效率提高，有效减少了气体积累对活性位点的阻塞。",
+      "figures": [
+        "Figure3_page4"
+      ],
+      "text_cn": "原位高速摄像动态监测高电流密度下H₂气泡演化行为。500 mA/cm²下，Ni/MoO₂电极产生的气泡中位直径仅19 μm（IQR: 14-30 μm），显著小于多孔Ni（中位直径29 μm, IQR: 20-43 μm）。气泡尺寸的显著减小表明气泡脱附效率提高，有效减少了气体积累对活性位点的阻塞。"
+    },
+    {
+      "id": 17,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "质量传输能力（二）：气泡尺寸分布对比",
+      "text_en": "The pronounced reduction in bubble size indicates enhanced bubble detachment efficiency, reducing the blockage of active sites and alleviating structural degradation caused by bubble-induced stress. At 1 A/cm², Ni/MoO₂ continues to generate smaller bubbles compared to porous Ni.",
+      "text_cn_curated": "气泡尺寸的显著减小表明：(1) 提高了气泡脱附效率，减少气体积累对活性位点的阻塞；(2) 减轻了气泡诱导应力对催化层的结构破坏。在1 A/cm²更高电流密度下，Ni/MoO₂电极依然保持较小的气泡尺寸，展现出优异的气泡管理能力。",
+      "figures": [
+        "Figure3_page5_full",
+        "Figure_S19"
+      ],
+      "text_cn": "气泡尺寸的显著减小表明：(1) 提高了气泡脱附效率，减少气体积累对活性位点的阻塞；(2) 减轻了气泡诱导应力对催化层的结构破坏。在1 A/cm²更高电流密度下，Ni/MoO₂电极依然保持较小的气泡尺寸，展现出优异的气泡管理能力。"
+    },
+    {
+      "id": 18,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "质量传输能力（三）：超亲水性与快速浸润",
+      "text_en": "Dynamic wettability tests show Ni/MoO₂ electrode facilitates complete electrolyte permeation within 50 ms, contrasting with porous Ni (contact angle 135°). DFT shows H₂O* adsorption is stronger on MoO₂ (ΔGads = -0.58 eV) than on Ni(111) (ΔGads = 0.02 eV), explaining enhanced hydrophilicity.",
+      "text_cn_curated": "动态润湿性测试显示Ni/MoO₂电极在50 ms内即可实现完全电解质浸润，而多孔Ni呈现135°的接触角（疏水）。DFT计算揭示其本质原因：MoO₂(200)表面的H₂O*吸附能（ΔGads = -0.58 eV）远强于Ni(111)表面（ΔGads = 0.02 eV），MoO₂的引入赋予了电极增强的本征亲水性。",
+      "figures": [
+        "Figure3_page5"
+      ],
+      "text_cn": "动态润湿性测试显示Ni/MoO₂电极在50 ms内即可实现完全电解质浸润，而多孔Ni呈现135°的接触角（疏水）。DFT计算揭示其本质原因：MoO₂(200)表面的H₂O*吸附能（ΔGads = -0.58 eV）远强于Ni(111)表面（ΔGads = 0.02 eV），MoO₂的引入赋予了电极增强的本征亲水性。"
+    },
+    {
+      "id": 19,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "质量传输能力（四）：超疏气性与低粘附力",
+      "text_en": "Ni/MoO₂ exhibits superior aerophobicity with H₂ bubble contact angle of 153° (vs 143° for porous Ni). Adhesion force measurements show 5-fold reduction: 0.58 μN for Ni/MoO₂ vs 2.9 μN for porous Ni. Nanoscale surface roughness contributes to both superhydrophilicity and superaerophobicity.",
+      "text_cn_curated": "Ni/MoO₂电极展现出优异的疏气性：H₂气泡接触角153°（多孔Ni为143°）。气泡粘附力测量显示5倍降低：Ni/MoO₂仅0.58 μN，多孔Ni为2.9 μN。纳米级表面粗糙度同时贡献了超亲水性和超疏气性，实现了电解质快速渗透与气泡高效脱附的协同。",
+      "figures": [
+        "Figure3_page5_full"
+      ],
+      "text_cn": "Ni/MoO₂电极展现出优异的疏气性：H₂气泡接触角153°（多孔Ni为143°）。气泡粘附力测量显示5倍降低：Ni/MoO₂仅0.58 μN，多孔Ni为2.9 μN。纳米级表面粗糙度同时贡献了超亲水性和超疏气性，实现了电解质快速渗透与气泡高效脱附的协同。"
+    },
+    {
+      "id": 20,
+      "type": "content",
+      "title_cn_curated": "质量传输能力（五）：多级孔结构传质机理",
+      "bullets_cn_curated": [
+        "宏-微孔（~400 μm + ~5 μm）：提供快速电解质渗透通道，50 ms内完成浸润。",
+        "纳米孔+亲水MoO₂涂层：增强毛细管驱动的液体渗透，保证活性位点处电解质供应。",
+        "纳米表面粗糙度：赋予超疏气性（153°接触角），气泡粘附力降低5倍。",
+        "协同效应：快速电解质渗透 + 高效气泡脱附 → 缓解高电流密度下的传质极化损失，保证长期稳定性。"
+      ],
+      "figures": []
+    },
+    {
+      "id": 21,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电子结构分析（一）：XPS揭示Ni→MoO₂电子转移",
+      "text_en": "XPS reveals: (i) Ni 2p₃/₂ Ni⁰ peak in Ni/MoO₂ shifts to higher binding energy vs porous Ni → electron-deficient Ni. (ii) Mo 3d Mo⁴⁺ and O 1s lattice oxygen peaks shift to lower binding energy vs pure MoO₂ → electron-enriched MoO₂. These observations confirm interfacial electron transfer from Ni to MoO₂.",
+      "text_cn_curated": "XPS分析揭示界面电子转移：(i) Ni/MoO₂中Ni⁰的Ni 2p₃/₂峰相对于多孔Ni向高结合能位移→Ni呈电子缺失态；(ii) Mo 3d中Mo⁴⁺峰和O 1s中晶格氧峰相对于纯MoO₂向低结合能位移→MoO₂呈电子富集态。以上结果清晰证实了Ni→MoO₂的界面电子转移。",
+      "figures": [
+        "Figure4_page5",
+        "Figure_S20"
+      ],
+      "text_cn": "XPS分析揭示界面电子转移：(i) Ni/MoO₂中Ni⁰的Ni 2p₃/₂峰相对于多孔Ni向高结合能位移→Ni呈电子缺失态；(ii) Mo 3d中Mo⁴⁺峰和O 1s中晶格氧峰相对于纯MoO₂向低结合能位移→MoO₂呈电子富集态。以上结果清晰证实了Ni→MoO₂的界面电子转移。"
+    },
+    {
+      "id": 22,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电子结构分析（二）：Ni K-edge XANES与EXAFS",
+      "text_en": "Ni K-edge XANES shows absorption edge shift to higher energy for Ni/MoO₂, confirming electron depletion at Ni sites. FT-EXAFS shows no detectable Ni-O scattering path (negligible nickel oxides). WT-EXAFS confirms dominant Ni-Ni metallic bonding contribution. Fitting: Ni-Ni CN = 4.8, R = 2.48 Å.",
+      "text_cn_curated": "Ni K-edge XANES显示Ni/MoO₂吸收边向高能方向移动，确认Ni位点电子缺失。FT-EXAFS未检测到Ni-O散射路径，说明氧化镍信号可忽略。WT-EXAFS证实主要贡献来自Ni-Ni金属键。拟合结果：Ni-Ni配位数4.8，键长2.48 Å，以金属态Ni为主。",
+      "figures": [
+        "Figure4_page6",
+        "Figure_S21",
+        "Figure_S22"
+      ],
+      "text_cn": "Ni K-edge XANES显示Ni/MoO₂吸收边向高能方向移动，确认Ni位点电子缺失。FT-EXAFS未检测到Ni-O散射路径，说明氧化镍信号可忽略。WT-EXAFS证实主要贡献来自Ni-Ni金属键。拟合结果：Ni-Ni配位数4.8，键长2.48 Å，以金属态Ni为主。"
+    },
+    {
+      "id": 23,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电子结构分析（三）：Mo K-edge XANES",
+      "text_en": "Mo K-edge XANES confirms Mo predominantly retains +4 oxidation state in Ni/MoO₂. The absorption edge position is consistent with MoO₂ reference, indicating the Mo valence state is preserved after heterostructure formation despite interfacial electron transfer.",
+      "text_cn_curated": "Mo K-edge XANES确认Ni/MoO₂中Mo主要保持+4氧化态。吸收边位置与MoO₂参比一致，表明尽管存在界面电子转移，Mo的价态在异质结构形成后基本保持不变。MoO₂作为电子受体增强了Ni位点的催化活性。",
+      "figures": [
+        "Figure4_page6_full"
+      ],
+      "text_cn": "Mo K-edge XANES确认Ni/MoO₂中Mo主要保持+4氧化态。吸收边位置与MoO₂参比一致，表明尽管存在界面电子转移，Mo的价态在异质结构形成后基本保持不变。MoO₂作为电子受体增强了Ni位点的催化活性。"
+    },
+    {
+      "id": 24,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "电子结构分析（四）：Mo K-edge EXAFS - 局域结构畸变",
+      "text_en": "Mo K-edge FT-EXAFS reveals distorted local structure in Ni/MoO₂ compared to pure MoO₂: Mo-O bond slightly elongated (2.02 vs 2.00 Å) and Mo-O coordination number significantly reduced (4.6 vs 5.9). Distortion attributed to oxygen vacancies (from reducing synthesis atmosphere) and interfacial electron transfer from Ni.",
+      "text_cn_curated": "Mo K-edge FT-EXAFS揭示Ni/MoO₂中Mo局域结构相对纯MoO₂发生畸变：Mo-O键略微伸长（2.02 vs 2.00 Å），Mo-O配位数显著降低（4.6 vs 5.9）。结构畸变归因于：(1) 合成过程中还原气氛产生的氧空位；(2) Ni→MoO₂界面电子转移诱导的额外电子/结构扰动。",
+      "figures": [
+        "Figure4_page6_full",
+        "Figure_S23",
+        "Figure_S24"
+      ],
+      "text_cn": "Mo K-edge FT-EXAFS揭示Ni/MoO₂中Mo局域结构相对纯MoO₂发生畸变：Mo-O键略微伸长（2.02 vs 2.00 Å），Mo-O配位数显著降低（4.6 vs 5.9）。结构畸变归因于：(1) 合成过程中还原气氛产生的氧空位；(2) Ni→MoO₂界面电子转移诱导的额外电子/结构扰动。"
+    },
+    {
+      "id": 25,
+      "type": "content",
+      "title_cn_curated": "电子结构分析（五）：界面电子转移机制总结",
+      "bullets_cn_curated": [
+        "XPS + XANES + EXAFS多维度证实：Ni/MoO₂异质界面存在Ni→MoO₂的定向电子转移。",
+        "Ni位点：电子缺失→优化H*吸附能→提升本征HER活性。",
+        "MoO₂位点：电子富集+局域结构畸变（氧空位+配位不饱和）→增强亲水性和导电性。",
+        "强Ni-MoO₂电子相互作用→增强结构稳定性，耐受高电流密度下长期运行。"
+      ],
+      "figures": []
+    },
+    {
+      "id": 26,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "反应机理（一）：原位XANES - 工作状态下的电子结构",
+      "text_en": "In situ XANES under HER conditions reveals the electronic structure of Ni and Mo remains largely unchanged during catalysis. Ni K-edge and Mo K-edge spectra at different applied potentials (HER times) overlap with open-circuit spectra, indicating high structural stability of Ni/MoO₂ heterointerface under working conditions.",
+      "text_cn_curated": "原位XANES实验在HER工作条件下监测电子结构演化。不同外加电位（不同反应时间）下采集的Ni K-edge和Mo K-edge谱图与开路电位谱图几乎完全重合，表明在HER工作条件下Ni/MoO₂异质界面的电子结构保持高度稳定，这是长期催化稳定性的结构基础。",
+      "figures": [
+        "Figure5_page6",
+        "Figure_S25"
+      ],
+      "text_cn": "原位XANES实验在HER工作条件下监测电子结构演化。不同外加电位（不同反应时间）下采集的Ni K-edge和Mo K-edge谱图与开路电位谱图几乎完全重合，表明在HER工作条件下Ni/MoO₂异质界面的电子结构保持高度稳定，这是长期催化稳定性的结构基础。"
+    },
+    {
+      "id": 27,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "反应机理（二）：DFT计算 - 界面模型与差分电荷",
+      "text_en": "DFT models: Ni(111) surface, MoO₂(200) surface, and Ni/MoO₂ heterointerface (Ni(111) nanoribbon on MoO₂(200)). Differential charge distribution shows pronounced charge redistribution at the interface: blue (charge depletion) on Ni side, yellow (charge accumulation) on MoO₂ side, consistent with XPS/XANES results.",
+      "text_cn_curated": "DFT计算构建了Ni(111)、MoO₂(200)和Ni/MoO₂界面（Ni(111)纳米带置于MoO₂(200)表面）模型。差分电荷分布显示界面处显著的电荷重新分布：Ni侧呈蓝色（电荷耗散），MoO₂侧呈黄色（电荷积累），与XPS/XANES实验结论一致，证实Ni→MoO₂界面电子转移。",
+      "figures": [
+        "Figure5_page7_full",
+        "Figure_S26",
+        "Figure_S27"
+      ],
+      "text_cn": "DFT计算构建了Ni(111)、MoO₂(200)和Ni/MoO₂界面（Ni(111)纳米带置于MoO₂(200)表面）模型。差分电荷分布显示界面处显著的电荷重新分布：Ni侧呈蓝色（电荷耗散），MoO₂侧呈黄色（电荷积累），与XPS/XANES实验结论一致，证实Ni→MoO₂界面电子转移。"
+    },
+    {
+      "id": 28,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "反应机理（三）：DFT计算 - H*吸附自由能优化",
+      "text_en": "PDOS shows electron-deficient Ni at the interface shifts d-band center, weakening H* adsorption. Ni/MoO₂ interface Ni site has ΔGH* = -0.18 eV, much closer to 0 eV than pure Ni(111) (-0.43 eV). This moderate H* binding facilitates both H* adsorption (Volmer step) and H₂ desorption, thereby boosting overall HER kinetics.",
+      "text_cn_curated": "PDOS分析显示界面处电子缺失的Ni其d带中心发生移动，适度减弱了H*吸附强度。界面Ni位点的ΔGH* = -0.18 eV，比纯Ni(111)的-0.43 eV更接近热中性（0 eV）。适中的H*结合能同时有利于H*吸附（Volmer步骤）和H₂脱附，从而显著提升整体HER动力学。",
+      "figures": [
+        "Figure5_page7"
+      ],
+      "text_cn": "PDOS分析显示界面处电子缺失的Ni其d带中心发生移动，适度减弱了H*吸附强度。界面Ni位点的ΔGH* = -0.18 eV，比纯Ni(111)的-0.43 eV更接近热中性（0 eV）。适中的H*结合能同时有利于H*吸附（Volmer步骤）和H₂脱附，从而显著提升整体HER动力学。"
+    },
+    {
+      "id": 29,
+      "type": "figure_left_text_right",
+      "title_cn_curated": "反应机理（四）：反应路径与三增强效应协同机制",
+      "text_en": "The triple-enhancement mechanism: (i) Ni→MoO₂ electron transfer weakens H* adsorption on Ni sites (ΔGH* from -0.43 to -0.18 eV), boosting intrinsic activity; (ii) Triscale porosity with hydrophilic MoO₂ accelerates bubble detachment and electrolyte permeation, enhancing mass transfer; (iii) Strong Ni-MoO₂ electronic interaction ensures structural stability under high current densities.",
+      "text_cn_curated": "三增强效应协同机制：(i) 本征活性增强：Ni→MoO₂界面电子转移优化Ni位点H*吸附自由能（ΔGH*从-0.43优化至-0.18 eV），促进H₂脱附；(ii) 传质增强：三尺度孔结构+亲水MoO₂涂层协同加速气泡脱附和电解质渗透；(iii) 稳定性增强：强Ni-MoO₂电子相互作用和与电极骨架的牢固结合确保高电流密度下结构稳定。",
+      "figures": [
+        "Figure5_page7_full"
+      ],
+      "text_cn": "三增强效应协同机制：(i) 本征活性增强：Ni→MoO₂界面电子转移优化Ni位点H*吸附自由能（ΔGH*从-0.43优化至-0.18 eV），促进H₂脱附；(ii) 传质增强：三尺度孔结构+亲水MoO₂涂层协同加速气泡脱附和电解质渗透；(iii) 稳定性增强：强Ni-MoO₂电子相互作用和与电极骨架的牢固结合确保高电流密度下结构稳定。"
+    },
+    {
+      "id": 30,
+      "type": "content",
+      "title_cn_curated": "总结与展望",
+      "bullets_cn_curated": [
+        "创新点：提出了原子到宏观多尺度组装策略，成功构建了具有三尺度孔结构的Ni/MoO₂一体化电极。",
+        "核心性能：1 A/cm²下过电位145 mV（较Pt/C降低52%），3500+小时稳定运行，工业条件下槽电压1.80 V。",
+        "三增强效应：界面电荷转移→本征活性↑；多级孔+亲水涂层→传质↑；强电子作用→稳定性↑。",
+        "制备优势：粉末冶金+浸渍-煅烧法，原料廉价易得，工艺与现有工业制造兼容，NaCl模板可回收。",
+        "展望：该多尺度电极设计策略为克服高电流密度ALKWE中的活性-稳定性权衡提供了新思路。"
+      ],
+      "figures": []
+    },
+    {
+      "id": 31,
+      "type": "content",
+      "title_cn_curated": "关键性能数据汇总",
+      "bullets_cn_curated": [
+        "过电位 @10 mA/cm²：19 mV（Pt/C: 14 mV）",
+        "过电位 @1 A/cm²：145 mV（Pt/C: 300 mV，降低52%）",
+        "Tafel斜率：36 mV/dec（多孔Ni: 87 mV/dec）",
+        "电荷转移阻抗Rct：0.426 Ω·cm²（多孔Ni: 26.47 Ω·cm²）",
+        "ECSA：211.25（多孔Ni: 50.00，4.2倍）",
+        "法拉第效率：~100%",
+        "稳定性：3500+ h @1 A/cm²，衰减0.023 mV/h",
+        "ALKWE槽电压：1.80 V @1 A/cm²（DOE 2026目标）",
+        "ALKWE能耗：4.3 kWh/Nm³ H₂",
+        "ALKWE稳定性：1000+ h，电压衰减0.16 mV/h"
+      ],
+      "figures": []
+    },
+    {
+      "id": 32,
+      "type": "title",
+      "title_cn_curated": "谢谢！欢迎提问",
+      "subtitle_en": "",
+      "subtitle_cn_curated": "Reference: Jiang, Hu, et al. J. Am. Chem. Soc. 2025, https://doi.org/10.1021/jacs.5c21735",
+      "note_cn": ""
+    }
+  ]
+}
