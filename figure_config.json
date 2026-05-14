@@ -1,0 +1,277 @@
+{
+  "figures": {
+    "Figure1": {
+      "source": "main",
+      "pages": [2, 3],
+      "crops": [
+        {"page": 2, "bbox": "full", "note": "synthesis schematic + photo"},
+        {"page": 3, "bbox": "full", "note": "cross-section SEM + HRTEM"}
+      ],
+      "output": "Figure1_page2"
+    },
+    "Figure2": {
+      "source": "main",
+      "pages": [3, 4],
+      "crops": [
+        {"page": 3, "bbox": "full", "note": "LSV polarization curves"},
+        {"page": 4, "bbox": "full", "note": "EIS, H2 productivity, stability"}
+      ],
+      "output": "Figure2_page3"
+    },
+    "Figure3": {
+      "source": "main",
+      "pages": [4, 5],
+      "crops": [
+        {"page": 4, "bbox": "full", "note": "bubble evolution imaging"},
+        {"page": 5, "bbox": "full", "note": "wettability + aerophobicity"}
+      ],
+      "output": "Figure3_page4"
+    },
+    "Figure4": {
+      "source": "main",
+      "pages": [5, 6],
+      "crops": [
+        {"page": 5, "bbox": "full", "note": "XPS spectra"},
+        {"page": 6, "bbox": "full", "note": "XANES + EXAFS"}
+      ],
+      "output": "Figure4_page5"
+    },
+    "Figure5": {
+      "source": "main",
+      "pages": [6, 7],
+      "crops": [
+        {"page": 6, "bbox": "full", "note": "in situ XANES"},
+        {"page": 7, "bbox": "full", "note": "DFT calculations"}
+      ],
+      "output": "Figure5_page6"
+    },
+    "Figure_S1": {
+      "source": "si",
+      "pages": [7],
+      "crops": [{"page": 7, "bbox": "full", "note": "XRD patterns"}],
+      "output": "Figure_S1"
+    },
+    "Figure_S2": {
+      "source": "si",
+      "pages": [10],
+      "crops": [{"page": 10, "bbox": "full", "note": ""}],
+      "output": "Figure_S2"
+    },
+    "Figure_S3": {
+      "source": "si",
+      "pages": [11],
+      "crops": [{"page": 11, "bbox": "full", "note": ""}],
+      "output": "Figure_S3"
+    },
+    "Figure_S4": {
+      "source": "si",
+      "pages": [12],
+      "crops": [{"page": 12, "bbox": "full", "note": ""}],
+      "output": "Figure_S4"
+    },
+    "Figure_S5": {
+      "source": "si",
+      "pages": [13],
+      "crops": [{"page": 13, "bbox": "full", "note": "SEM images"}],
+      "output": "Figure_S5"
+    },
+    "Figure_S6": {
+      "source": "si",
+      "pages": [15],
+      "crops": [{"page": 15, "bbox": "full", "note": "cross-section EDS mapping"}],
+      "output": "Figure_S6"
+    },
+    "Figure_S7": {
+      "source": "si",
+      "pages": [16],
+      "crops": [{"page": 16, "bbox": "full", "note": "MIP pore size distribution"}],
+      "output": "Figure_S7"
+    },
+    "Figure_S8": {
+      "source": "si",
+      "pages": [17],
+      "crops": [{"page": 17, "bbox": "full", "note": "HAADF-STEM + EDS"}],
+      "output": "Figure_S8"
+    },
+    "Figure_S9": {
+      "source": "si",
+      "pages": [18],
+      "crops": [{"page": 18, "bbox": "full", "note": "HRTEM"}],
+      "output": "Figure_S9"
+    },
+    "Figure_S10": {
+      "source": "si",
+      "pages": [19],
+      "crops": [{"page": 19, "bbox": "full", "note": "XRD patterns"}],
+      "output": "Figure_S10"
+    },
+    "Figure_S11": {
+      "source": "si",
+      "pages": [20],
+      "crops": [{"page": 20, "bbox": "full", "note": "Raman spectra"}],
+      "output": "Figure_S11"
+    },
+    "Figure_S12": {
+      "source": "si",
+      "pages": [21],
+      "crops": [{"page": 21, "bbox": "full", "note": "LSV comparison"}],
+      "output": "Figure_S12"
+    },
+    "Figure_S13": {
+      "source": "si",
+      "pages": [22],
+      "crops": [{"page": 22, "bbox": "full", "note": "Tafel slopes"}],
+      "output": "Figure_S13"
+    },
+    "Figure_S14": {
+      "source": "si",
+      "pages": [24],
+      "crops": [{"page": 24, "bbox": "full", "note": "Cdl + ECSA"}],
+      "output": "Figure_S14"
+    },
+    "Figure_S15": {
+      "source": "si",
+      "pages": [27],
+      "crops": [{"page": 27, "bbox": "full", "note": "post-stability XRD + SEM"}],
+      "output": "Figure_S15"
+    },
+    "Figure_S16": {
+      "source": "si",
+      "pages": [28],
+      "crops": [{"page": 28, "bbox": "full", "note": "post-stability TEM"}],
+      "output": "Figure_S16"
+    },
+    "Figure_S17": {
+      "source": "si",
+      "pages": [30],
+      "crops": [{"page": 30, "bbox": "full", "note": "ALKWE cell performance"}],
+      "output": "Figure_S17"
+    },
+    "Figure_S18": {
+      "source": "si",
+      "pages": [31],
+      "crops": [{"page": 31, "bbox": "full", "note": ""}],
+      "output": "Figure_S18"
+    },
+    "Figure_S19": {
+      "source": "si",
+      "pages": [33],
+      "crops": [{"page": 33, "bbox": "full", "note": "bubble size distribution"}],
+      "output": "Figure_S19"
+    },
+    "Figure_S20": {
+      "source": "si",
+      "pages": [34],
+      "crops": [{"page": 34, "bbox": "full", "note": "XPS survey + valence band"}],
+      "output": "Figure_S20"
+    },
+    "Figure_S21": {
+      "source": "si",
+      "pages": [35],
+      "crops": [{"page": 35, "bbox": "full", "note": "Ni K-edge XANES"}],
+      "output": "Figure_S21"
+    },
+    "Figure_S22": {
+      "source": "si",
+      "pages": [36],
+      "crops": [{"page": 36, "bbox": "full", "note": "Ni K-edge WT-EXAFS"}],
+      "output": "Figure_S22"
+    },
+    "Figure_S23": {
+      "source": "si",
+      "pages": [38],
+      "crops": [{"page": 38, "bbox": "full", "note": "Mo K-edge FT-EXAFS fitting"}],
+      "output": "Figure_S23"
+    },
+    "Figure_S24": {
+      "source": "si",
+      "pages": [39],
+      "crops": [{"page": 39, "bbox": "full", "note": "Mo K-edge WT-EXAFS"}],
+      "output": "Figure_S24"
+    },
+    "Figure_S25": {
+      "source": "si",
+      "pages": [41],
+      "crops": [{"page": 41, "bbox": "full", "note": "in situ XANES spectra"}],
+      "output": "Figure_S25"
+    },
+    "Figure_S26": {
+      "source": "si",
+      "pages": [42],
+      "crops": [{"page": 42, "bbox": "full", "note": "DFT slab models"}],
+      "output": "Figure_S26"
+    },
+    "Figure_S27": {
+      "source": "si",
+      "pages": [43],
+      "crops": [{"page": 43, "bbox": "full", "note": "PDOS + d-band center"}],
+      "output": "Figure_S27"
+    },
+    "Figure_S28": {
+      "source": "si",
+      "pages": [44],
+      "crops": [{"page": 44, "bbox": "full", "note": ""}],
+      "output": "Figure_S28"
+    },
+    "Table_S1": {
+      "source": "si",
+      "pages": [8],
+      "crops": [{"page": 8, "bbox": "full", "note": ""}],
+      "output": "Table_S1"
+    },
+    "Table_S2": {
+      "source": "si",
+      "pages": [9],
+      "crops": [{"page": 9, "bbox": "full", "note": ""}],
+      "output": "Table_S2"
+    },
+    "Table_S3": {
+      "source": "si",
+      "pages": [14],
+      "crops": [{"page": 14, "bbox": "full", "note": ""}],
+      "output": "Table_S3"
+    },
+    "Table_S4": {
+      "source": "si",
+      "pages": [23],
+      "crops": [{"page": 23, "bbox": "full", "note": ""}],
+      "output": "Table_S4"
+    },
+    "Table_S5": {
+      "source": "si",
+      "pages": [25],
+      "crops": [{"page": 25, "bbox": "full", "note": ""}],
+      "output": "Table_S5"
+    },
+    "Table_S6": {
+      "source": "si",
+      "pages": [26],
+      "crops": [{"page": 26, "bbox": "full", "note": "literature comparison"}],
+      "output": "Table_S6"
+    },
+    "Table_S7": {
+      "source": "si",
+      "pages": [29],
+      "crops": [{"page": 29, "bbox": "full", "note": ""}],
+      "output": "Table_S7"
+    },
+    "Table_S8": {
+      "source": "si",
+      "pages": [32],
+      "crops": [{"page": 32, "bbox": "full", "note": "ALKWE performance comparison"}],
+      "output": "Table_S8"
+    },
+    "Table_S9": {
+      "source": "si",
+      "pages": [37],
+      "crops": [{"page": 37, "bbox": "full", "note": ""}],
+      "output": "Table_S9"
+    },
+    "Table_S10": {
+      "source": "si",
+      "pages": [40],
+      "crops": [{"page": 40, "bbox": "full", "note": ""}],
+      "output": "Table_S10"
+    }
+  }
+}
