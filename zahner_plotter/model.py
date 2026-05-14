@@ -50,7 +50,7 @@ class Model:
                 idx = len(self.files)
                 self.files[p] = {
                     "color": COLOR_PALETTE[idx % len(COLOR_PALETTE)],
-                    "width": 1.5,
+                    "width": 0.5,
                     "label": "",
                     "enabled": True,
                     "category": category,

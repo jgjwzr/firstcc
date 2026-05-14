@@ -218,10 +218,17 @@ class Controller:
                 legend.set_draggable(True)
 
         self.view.canvas.draw()
+        self._sync_canvas_size()
 
         preset_label = {"her": "HER", "oer": "OER", "manual": "全部"}
         self.view.set_status(
             f"绘图完成 — {preset_label.get(preset, '全部')}，{len(active)} 条曲线")
+
+    def _sync_canvas_size(self):
+        """Lock canvas widget to exact figure pixel dimensions."""
+        w_px = int(self.view.fig.get_size_inches()[0] * self.view.fig.get_dpi())
+        h_px = int(self.view.fig.get_size_inches()[1] * self.view.fig.get_dpi())
+        self.view.canvas.get_tk_widget().configure(width=w_px, height=h_px)
 
     # ══════════════════════════════════════════════════════════════
     #  Save / Export

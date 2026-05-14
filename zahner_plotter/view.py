@@ -21,16 +21,17 @@ plt.rcParams["path.simplify"] = False
 class LeftPanel(ttk.Frame):
     def __init__(self, parent):
         super().__init__(parent)
-        self.grid_rowconfigure(1, weight=1)
-        self.grid_columnconfigure(0, weight=1)
         self.grid_propagate(False)
 
         self.fig, self.ax = plt.subplots(figsize=(6.5, 4.5), dpi=200)
         self.fig.subplots_adjust(left=0.12, right=0.95, top=0.93, bottom=0.14)
 
+        # Fixed-size canvas matching figure pixel dimensions
+        w_px = int(6.5 * 200)
+        h_px = int(4.5 * 200)
         self.canvas = FigureCanvasTkAgg(self.fig, master=self)
-        self.canvas.get_tk_widget().configure(width=1, height=1)
-        self.canvas.get_tk_widget().grid(row=1, column=0, sticky="nsew")
+        self.canvas.get_tk_widget().configure(width=w_px, height=h_px)
+        self.canvas.get_tk_widget().grid(row=1, column=0)
 
         toolbar_frame = ttk.Frame(self)
         toolbar_frame.grid(row=0, column=0, sticky="ew")
@@ -39,6 +40,8 @@ class LeftPanel(ttk.Frame):
 
     def set_figsize(self, w, h):
         self.fig.set_size_inches(w, h)
+        dpi = self.fig.get_dpi()
+        self.canvas.get_tk_widget().configure(width=int(w * dpi), height=int(h * dpi))
 
 
 # ══════════════════════════════════════════════════════════════════
@@ -236,6 +239,17 @@ class CurveSettings(ttk.Frame):
     def set_callback(self, cb):
         self._on_changed = cb
 
+    def _apply_all_widths(self, var):
+        try:
+            w = float(var.get())
+        except ValueError:
+            return
+        for path in self.model.all_files:
+            self.model.update_file(path, "width", w)
+        self.rebuild()
+        if self._on_changed:
+            self._on_changed()
+
     def rebuild(self):
         """Destroy all rows and rebuild from model.files."""
         for w in self.winfo_children():
@@ -246,6 +260,16 @@ class CurveSettings(ttk.Frame):
         if not files:
             ttk.Label(self, text="加载文件后此处显示曲线设置", foreground="gray").pack(pady=8)
             return
+
+        # Global width control
+        global_row = ttk.Frame(self)
+        global_row.pack(fill="x", pady=(0, 4))
+        ttk.Label(global_row, text="统一线宽:").pack(side="left")
+        global_width_var = tk.StringVar(value="")
+        ttk.Spinbox(global_row, textvariable=global_width_var,
+                    from_=0.25, to=8.0, increment=0.25, width=5).pack(side="left", padx=4)
+        ttk.Button(global_row, text="全部应用",
+                   command=lambda v=global_width_var: self._apply_all_widths(v)).pack(side="left")
 
         # Header
         hdr = ttk.Frame(self)
